@@ -62,9 +62,9 @@ struct OpCharacter {
   std::string filter_shape{"N/A"};
   // change macs to flops
   float macs{0.f};
-  // useless paramater
+  // useless parameter
   float macs_ps{0.f};
-  // TODO[wz1qqx] add more performance paramaters of ops
+  // TODO[wz1qqx] add more performance parameters of ops
   // MACs(MB)
   float macs_{0.f};
   // I = MFLOPS(MFLOPs) / MACs(MB)
